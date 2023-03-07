@@ -7,10 +7,12 @@ module.exports = {
       orange: "#ff650e",
       black: "#292929",
     },
-    fontFamily: {
-      display: ["Poppins", "sans-serif"],
+
+    extend: {
+      fontFamily: {
+        display: ["Poppins", "sans-serif"],
+      },
     },
-    extend: {},
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };

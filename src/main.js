@@ -7,7 +7,7 @@ inView(".staggersection", () => {
     ".staggeranimation",
     { opacity: [0, 1] },
     {
-      delay: stagger(1.2, { start: 0.5 }),
+      delay: stagger(0.8, { start: 0.5 }),
     }
   );
 });
