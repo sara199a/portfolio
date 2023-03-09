@@ -10,4 +10,17 @@
   .displayfont {
     font-size: clamp(7rem, -1.1951rem + 21.8537vw, 18.2rem);
   }
+  .boblebaggrund {
+    background-image: url("/img/baggrund.png");
+    background-size: cover;
+    height: 95vh;
+    background-position: center center;
+  }
+
+  .boblefooter {
+    background-image: url("/img/baggrund.png");
+    background-size: cover;
+    height: 30h;
+    background-position: center center;
+  }
 }
