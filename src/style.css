@@ -24,30 +24,32 @@
     background-position: center center;
   }
 
-  #sticky {
-    max-width: 1200px;
-    margin: 80px auto;
+  @media (min-width: 800px) {
+    #sticky {
+      max-width: 1200px;
+      margin: 80px auto;
 
-    display: flex;
-    flex-flow: row wrap;
-  }
+      display: flex;
+      flex-flow: row wrap;
+    }
 
-  .projects {
-    height: 2500px;
-    padding: 90px;
+    .projects {
+      height: 2500px;
+      padding: 90px;
 
-    flex: 1 1 70%;
-  }
+      flex: 1 1 70%;
+    }
 
-  aside {
-    height: 300px;
-    padding: 40px;
+    aside {
+      height: 300px;
+      padding: 40px;
 
-    flex: 1 1 30%;
-    min-width: 300px;
+      flex: 1 1 30%;
+      min-width: 300px;
 
-    top: 0;
-    position: sticky;
-    align-self: flex-start;
+      top: 0;
+      position: sticky;
+      align-self: flex-start;
+    }
   }
 }
